@@ -1,3 +1,3 @@
-test('it SHOULD pass', _ => {
+test('it SHOULD pass', () => {
     expect(true).toBe(true);
 })
