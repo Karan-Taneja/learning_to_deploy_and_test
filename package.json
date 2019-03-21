@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "$(npm bin)/jest --coverage",
+    "test": "$(yarn bin)/jest --coverage",
     "start": "node index.js"
   },
   "license": "MIT",
