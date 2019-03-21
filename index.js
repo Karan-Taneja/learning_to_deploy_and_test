@@ -1,5 +1,5 @@
 const app = require('express')();
-const port = proccess.env.PORT || 5000;
+const port = process.env.PORT || 5000;
 
 app.get('/ping', (req, res) => {
     res.status(200);
