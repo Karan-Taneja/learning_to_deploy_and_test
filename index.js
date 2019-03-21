@@ -1,11 +1,11 @@
 const app = require('express')();
-const port = 5000;
+const port = proccess.env.PORT || 5000;
 
 app.get('/ping', (req, res) => {
     res.status(200);
     res.json({'pong': true});
 });
 
-app.listen(5000, _ => {
+app.listen( port, _ => {
     console.log(`listening on port ${port}`);
 });
